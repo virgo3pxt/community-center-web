@@ -1,0 +1,24 @@
+community-center-web
+├── public
+│   ├── index.html        # Main HTML document
+│   ├── styles.css        # Global styles for the website
+│   └── assets
+│       ├── images        # Folder for storing images
+│       └── fonts         # Folder for custom fonts
+├── src
+│   ├── components
+│   │   ├── Header.js     # Header component with navigation
+│   │   ├── Footer.js     # Footer component with contact and social links
+│   │   ├── Home.js       # Home page component
+│   │   ├── About.js      # About page component
+│   │   ├── Events.js     # Events page component
+│   │   ├── Blog.js       # Blog page component
+│   │   └── Contact.js    # Contact page component
+│   ├── utils
+│   │   └── api.js        # Utility functions for API calls
+│   ├── App.js            # Main application component
+│   └── index.js          # Entry point of the application
+├── package.json          # npm configuration file
+├── .gitignore            # Git ignore file
+├── README.md             # Project documentation
+└── webpack.config.js     # Webpack configuration file
